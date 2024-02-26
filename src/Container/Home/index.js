@@ -10,11 +10,8 @@ import Who from "../WhoAbout"
 import Card from "../Card"
 import Planfood from "../Planfood"
 import Alert from "../Alert"
-
 import Planning from "../Planning"
-
 import CardValue from "../CardValue"
-import Alert from "../Alert"
 export default function Home() {
   return (
     <div>

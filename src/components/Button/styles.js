@@ -11,7 +11,21 @@ export const Container = styled.div`
   }
 `
 
-main
+export const ContainerButton = styled.a`
+  font-family: "Roswell Four ITC Std";
+  font-size: 2em;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #0d0d0d;
+  color: #ffffff;
+
+
+  border: inset 2px rgb(198, 198, 241);
+  border-radius: 1rem;
+  transition: opacity 0.2s ease-in-out;
+
+
+
   button {
     font-size: 1.5em;
     cursor: pointer;
@@ -27,18 +41,7 @@ main
     transition: opacity 0.5s ease-in-out;
     padding: 50px;
 
-export const ContainerButton = styled.a`
-  font-family: "Roswell Four ITC Std";
-  font-size: 2em;
-  padding: 1rem;
-  cursor: pointer;
-  background-color: #0d0d0d;
-  color: #ffffff;
- main
-
-  border: inset 2px rgb(198, 198, 241);
-  border-radius: 1rem;
-  transition: opacity 0.2s ease-in-out;
+  }
 
   &:hover {
     opacity: 0.5;
