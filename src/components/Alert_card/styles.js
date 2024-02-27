@@ -7,11 +7,13 @@ export const Container = styled.div`
   flex-direction: column;
   margin-top: 40px;
   gap: 40px;
-  border: solid 1px red;
-    
   height: 220vh;
 
-
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
  
 `
 
@@ -23,7 +25,6 @@ export const ContainerItens = styled.div`
     
 
 `
-
 
 export const CardBody = styled.div`
 

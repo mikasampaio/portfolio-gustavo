@@ -8,6 +8,15 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
 `
 
 export const Phone = styled.div`
@@ -17,7 +26,7 @@ export const Phone = styled.div`
   align-items: center;
   margin-top: 10px;
   padding: 31px;
-  border: solid 1px red;
+ 
   color: #ffffff;
 
   @media (min-width: 768px) {
@@ -41,7 +50,6 @@ export const PhoneImg = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border: solid 1px red;
   width: 100%;  
 
   @media (min-width: 768px) {
