@@ -12,7 +12,7 @@ export default function Food() {
     <Container>
         <Title>
             <h1>Planejamento Alimentar Individualizado</h1>
-            <p>Atinja as 3 metas importantes</p>
+            <p>Atinja aas 3 metas importantes</p>
         </Title>
         <CardGroup/>
     </Container>

@@ -2,7 +2,7 @@
 import React from "react"
 import { Container, Phone, PhoneText, PhoneImg } from "./styles"
 import CardGroup from "../../components/Alert_card"
-import Photo from "../../assets/maofone.png"
+import Photo from "../../assets/webdiet.png"
 
 export default function Alert() {
   return (

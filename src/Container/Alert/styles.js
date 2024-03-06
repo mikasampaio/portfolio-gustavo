@@ -8,6 +8,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 
 
 
@@ -15,6 +16,12 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  img{
+    width: 20vw;
+    height: 70vh;
+    border-radius: 10%;
   }
 
 `
@@ -56,4 +63,5 @@ export const PhoneImg = styled.div`
     width: 50%;  
   }
 `;
+
 

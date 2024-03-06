@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
   margin-top: 40px;
   gap: 40px;
-  height: 220vh;
+  min-height: 150vh;
 
   @media screen and (min-width: 1200px) {
     display: flex;
@@ -31,14 +31,20 @@ export const CardBody = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 65px;
 
     background-color: #0057dc;
-    border-radius: 20px;
+    border-radius: 15%;
     text-align: center;
-    height: 100vh;
+    height: 60vh;
     width: 25vw;
     padding: 0px 20px 0px 20px;
+
+    li{
+        list-style: none;
+        list-style-type: " ✔ ";
+        text-align: left;
+    }
 
 
 h5{

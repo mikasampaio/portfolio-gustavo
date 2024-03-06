@@ -1,6 +1,7 @@
 /* eslint-disable */
 import React from 'react';
 import { Container, ContainerItens, CardBody, CardBodySecond, Icon, CardBottom, ItensSecond} from "./styles"
+import CardPlanning from '../CardPlanning';
 
 
 

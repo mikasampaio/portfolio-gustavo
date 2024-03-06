@@ -35,11 +35,10 @@ const CardGroup = () => {
                     <h5 className="card-title">Envio de formulários interativos avaliando:</h5>
                     <p className="card-text">
                         <ul>
-                            <li>A</li>
-                            <li>A</li>
-                            <li>A</li>
-                            <li>A</li>
-                            <li>8</li>
+                            <li>Sono</li>
+                            <li>Hidratação</li>
+                            <li>Mastigação</li>
+                            <li>Frequência de treinos</li>
                         </ul>
                     </p>
 
