@@ -9,7 +9,7 @@ import Who from "../WhoAbout"
 import Alert from "../Alert"
 import Planning from "../Planning"
 import Planning2 from "../Planning2"
-import CardValue from "../CardValue"
+
 export default function Home() {
   return (
     <div>
@@ -21,7 +21,6 @@ export default function Home() {
       <InPersonService />
       <Alert />
       <Feedback />
-      <CardValue />
       <Planning2/>
       <Footer />
     </div>

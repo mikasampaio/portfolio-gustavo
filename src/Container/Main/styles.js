@@ -11,8 +11,9 @@ export const Container = styled.div`
     -webkit-mask-image: linear-gradient(to top, transparent 7%, black 30%);
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1200px) {
     flex-direction: column;
+    
   }
 `
 

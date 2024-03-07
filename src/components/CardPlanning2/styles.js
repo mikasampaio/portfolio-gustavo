@@ -4,6 +4,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: -webkit-center;
   width: auto;
   background-color: rgb(0, 87, 220, 0.1);
@@ -15,9 +16,12 @@ export const Container = styled.div`
     30;
   border-width: 2px;
   border-style: solid;
+  gap: 30px;
 
-  border: solid 1px red;
-  height: 30vh;
+  height: 40vh;
+  width: 20vw;
+
+  padding: 20px;
 
   text-align: center;
 `
@@ -29,12 +33,27 @@ export const ContainerTitle = styled.div`
       : "linear-gradient(14deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%)"};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Roswell Four ITC Std";
-  font-size: 2.5rem;
-  text-transform: uppercase;
+
+  
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 1.3rem;
+
+  width: 20vw;
+  height: 100vh;
+
+  text-align: center;
+  margin-top: 10%;
+
+
 `
 
 export const ContainerNumber = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   font-family: "Montserrat", sans-serif;
   background: ${props =>
     props.isColorNumber
@@ -42,13 +61,20 @@ export const ContainerNumber = styled.div`
       : "linear-gradient(14deg, rgba(26, 44, 144, 1) 20%, rgba(48, 93, 208, 1) 100%)"};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 3rem;
+  font-size: 2.0rem;
+  text-transform: uppercase;
+
+  border-bottom: solid 4px #f26400;
+
+
+
 `
 
 export const ContainerText = styled.div`
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 500;
   padding: 10px;
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-align: center;
+  text-transform: uppercase;
 `

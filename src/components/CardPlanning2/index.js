@@ -14,5 +14,10 @@ export default function CardPlanning({ number, title, label, isColor }) {
       <ContainerTitle isColor={isColor}>{title}</ContainerTitle>
       <ContainerText>{label}</ContainerText>
     </Container>
+    
+
+    
   )
+
+  
 }

@@ -8,7 +8,7 @@ export default function Planning() {
   const objects = [
     {
       id: "Avulso",
-      title: "1x R$320,00",
+      title: "1x R$ 320,00",
       label:
         "1 Consultoria por vídeo chamada"
     },
@@ -23,6 +23,13 @@ export default function Planning() {
       title: "6X R$ 230,00 ou R$1320 no pix (6 reuniões + check-ins)",
       label:
       "6 Consultorias por vídeo chamada."
+    },
+
+    {
+      id: "PIX ou Boleto",
+      title: "Caso opte pelo pagamento via pix ou boleto, de ser feito integralmente na primeira consulta.",
+      label:
+      "Parcelamento somente via cartão de crédito"
     }
   ]
 

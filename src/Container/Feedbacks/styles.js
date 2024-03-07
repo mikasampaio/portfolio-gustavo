@@ -3,10 +3,9 @@ import styled from "styled-components"
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 70vh;
   margin-top: 80px;
   margin-bottom: 70px;
-  border: solid 1px red;
 `
 
 export const ContainerItens = styled.div`
@@ -33,6 +32,7 @@ export const Item = styled.div`
   color: #ffffff;
   font-size: 1.3rem;
   text-align: center;
+  white-space: pre-line;
 
   @media screen and (min-width: 1200px) {
     width: 70%;
