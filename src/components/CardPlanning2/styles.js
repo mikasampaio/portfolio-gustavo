@@ -18,8 +18,7 @@ export const Container = styled.div`
   border-style: solid;
   gap: 30px;
 
-  height: 40vh;
-  width: 20vw;
+  height: 30vh;
 
   padding: 20px;
 
@@ -44,6 +43,8 @@ export const ContainerTitle = styled.div`
 
   text-align: center;
   margin-top: 10%;
+
+  
 
 
 `

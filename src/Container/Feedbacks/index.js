@@ -11,12 +11,13 @@ export default function Feedback() {
       <ContainerItens>
         <ReactElasticCarousel enableAutoPlay autoPlaySpeed={6000}>
           <Item>
-            Nutri bom dia, todo mundo me falando que estou mais magra. Fui me
-            pesar e já perdi 3kg e só têm 1 mês eu seguindo a dieta.
+            Irmão, fora de brincadeira agora, queria agradecer pelo excelente
+            trabalho... Apesar de ainda n ver resultado mas só sua atenção já
+            nos deixa muito mais confiantes! PARABENS! <br/>@eng.lucaslima59<br/>
           </Item>
           <Item>
-            Você é foda! Brigadão pela atenção, pela parceria. Já tô ansioso pra
-            ir no mercado comprar tudo novo.
+            Tô me dedicando, estou muito satisfeita e perdi 2kg, porém tô
+            ficando exausta 😂 <br/>@jofsorris0<br/>
           </Item>
           <Item>
             Todo mundo fala que eu tô mais sequinha e com corpão, eu nunca fui
@@ -44,9 +45,10 @@ export default function Feedback() {
           </Item>
           <Item>
             Bom dia Gustavo, hoje faz 8 meses que começamos o trabalho de 115kg
-            pra 102kg , só glória.<br />
-            <br /> <br />                       
-            @diegoppersonal 
+            pra 102kg , só glória.
+            <br />
+            <br /> <br />
+            @diegoppersonal
           </Item>
         </ReactElasticCarousel>
       </ContainerItens>
