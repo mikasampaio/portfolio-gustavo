@@ -5,7 +5,8 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: -webkit-center;
-  width: auto;
+  width: 100%;
+  height: 100%;
   background-color: rgb(0, 87, 220, 0.1);
   border-image: linear-gradient(
       14deg,
@@ -24,6 +25,13 @@ export const ContainerTitle = styled.div`
       : "linear-gradient(14deg, rgba(26, 44, 144, 1) 30%, rgba(48, 93, 208, 1) 100%)"};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "Roswell Four ITC Std";
+  font-size: 3rem;
+  text-transform: uppercase;
+`
+
+export const ContainerSubtitle = styled.div`
+  color: #ffffff;
   font-family: "Roswell Four ITC Std";
   font-size: 3rem;
   text-transform: uppercase;

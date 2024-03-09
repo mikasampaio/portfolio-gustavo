@@ -4,7 +4,7 @@ import Card from "../../components/CardPlanning"
 import Title from "../../components/Title"
 import { Container, ContainerItens } from "./styles"
 
-export default function Planning() {
+export default function PlanAndV() {
   const objects = [
     {
       id: "01",

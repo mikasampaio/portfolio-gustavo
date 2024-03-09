@@ -13,5 +13,6 @@ export default createGlobalStyle`
     body {
         background-color: #000000;
         padding: 15px;
+        overflow-x: hidden;
     }
 `

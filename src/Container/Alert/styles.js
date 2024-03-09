@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 import styled from "styled-components"
 
 export const Container = styled.div`
@@ -8,9 +6,6 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
-
-
 
   @media screen and (min-width: 1200px) {
     display: flex;
@@ -18,50 +13,55 @@ export const Container = styled.div`
     align-items: center;
   }
 
-  img{
+  img {
     width: 20vw;
-    height: 70vh;
     border-radius: 10%;
   }
 
+  @media screen and (max-width: 420px) {
+    img {
+      width: 100%;
+    }
+  }
 `
 
-export const Phone = styled.div`
+export const ContainerItens = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 100%;
+
+  @media screen and (max-width: 767px) {
+  }
+
+  @media screen and (max-width: 420px) {
+    flex-direction: column;
+    gap: 20px;
+  }
+`
+
+export const ContainerText = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-  padding: 31px;
- 
   color: #ffffff;
+  width: 50vw;
 
-  @media (min-width: 768px) {
-    flex-direction: row;  
+  h1 {
+    font-family: "Roswell Four ITC Std";
+    font-size: 5rem;
   }
-`;
 
-export const PhoneText = styled.div`
-  margin: 10px;
-  text-align: center;
-  width: 100%;
-  color: #ffffff;
+  p {
+      font-size: 1rem;
+    }
 
-  @media (min-width: 768px) {
-    width: 50%;  
+  @media screen and (max-width: 420px) {
+    width: 100%;
+    text-align: center;
+
+    p {
+      font-size: 0.9rem;
+    }
   }
-`;
-
-export const PhoneImg = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100%;  
-
-  @media (min-width: 768px) {
-    width: 50%;  
-  }
-`;
-
-
+`

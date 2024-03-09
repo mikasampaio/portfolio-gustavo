@@ -1,14 +1,14 @@
 import React from "react"
 
+import Alert from "../Alert"
 import Feedback from "../Feedbacks"
 import Footer from "../Footer"
 import InPersonService from "../InPersonService"
 import Main from "../Main"
 import OnlineService from "../OnlineService"
-import Who from "../WhoAbout"
-import Alert from "../Alert"
+import PlanAndValue from "../PlanAndValue"
 import Planning from "../Planning"
-import Planning2 from "../Planning2"
+import Who from "../WhoAbout"
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
       <InPersonService />
       <Alert />
       <Feedback />
-      <Planning2/>
+      <PlanAndValue/>
       <Footer />
     </div>
   )
