@@ -12,7 +12,14 @@ export const Container = styled.div`
   }
 
   @media screen and (max-width: 1200px) {
+    display: flex;
     flex-direction: column;
+
+    img{
+      width: 85vw;
+      height: 50vh;
+    }
+
     
   }
 `
@@ -25,4 +32,19 @@ export const SubPhoto = styled.div`
   img {
     width: 30vw;
   }
+
+  @media screen and (max-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+      width: 70vw;
+      height: 50vh;
+    }
+
+    
+  }
+
+
 `
