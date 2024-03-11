@@ -6,6 +6,9 @@ export const Container = styled.div`
   justify-content: center;
   height: 100vh;
 
+  overflow: hidden;
+  
+
   img {
     width: 50%;
     -webkit-mask-image: linear-gradient(to top, transparent 7%, black 30%);
@@ -14,6 +17,9 @@ export const Container = styled.div`
   @media screen and (max-width: 1200px) {
     display: flex;
     flex-direction: column;
+
+    
+
 
     img{
       width: 85vw;
@@ -42,6 +48,8 @@ export const SubPhoto = styled.div`
       width: 70vw;
       height: 50vh;
     }
+
+
 
     
   }
