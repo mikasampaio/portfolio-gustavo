@@ -37,6 +37,8 @@ export const ContainerText = styled.div`
   height: 90vh;
   padding: 20px 30px;
 
+  
+
 
 `
 
@@ -54,8 +56,8 @@ export const CardBody = styled.div`
 
   li {
     list-style: none;
-    list-style-type: " ✔ ";
-    text-align: left;
+    
+    
   }
 
   h5 {
@@ -70,6 +72,7 @@ export const CardBody = styled.div`
     color: #ffffff;
     font-weight: bolder;
     font-size: 0.9rem;
+    
   }
 
   @media screen and (max-width: 430px) {

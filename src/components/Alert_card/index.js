@@ -64,10 +64,10 @@ const CardGroup = () => {
             </h5>
             <p className="card-text">
               <ul>
-                <li>Sono</li>
-                <li>Hidratação</li>
-                <li>Mastigação</li>
-                <li>Frequência de treinos</li>
+                <li>✔ Sono</li>
+                <li>✔ Hidratação</li>
+                <li>✔ Mastigação</li>
+                <li>✔ Frequência de treinos</li>
               </ul>
             </p>
             <p>
